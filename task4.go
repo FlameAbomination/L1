@@ -13,7 +13,7 @@ func Task4() {
 	fmt.Fprintln(os.Stdout, "Введите число воркеров:")
 
 	var n int
-	_, err := fmt.Scanf("%d", &n)
+	_, err := fmt.Scanf("%d\n", &n)
 	if err != nil {
 		n = 5
 		fmt.Fprintln(os.Stdout, "Неверный формат ввода, будет использовано стандартное значение")
