@@ -23,7 +23,7 @@ func (h Human) GetBMI() float32 {
 	return float32(h.weight) / (h.height * h.height)
 }
 
-func task1() {
+func Task1() {
 	human := Human{
 		1.84,
 		60,

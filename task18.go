@@ -47,7 +47,7 @@ func SafeCounter(n int) {
 	fmt.Fprintln(os.Stdout, counter.counter)
 }
 
-func task18() {
+func Task18() {
 	UnsafeCounter(250)
 	SafeCounter(250)
 }

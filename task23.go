@@ -13,7 +13,7 @@ func RemoveFromSLice[T any](slice []T, index int) ([]T, error) {
 	return append(slice[:index], slice[index+1:]...), nil
 }
 
-func task23() {
+func Task23() {
 	arr := []int{2, 4, 6, 8, 10}
 	arr, _ = RemoveFromSLice(arr, 4)
 	fmt.Fprintln(os.Stdout, arr)

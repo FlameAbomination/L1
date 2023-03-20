@@ -30,7 +30,7 @@ func ReverseWords2(source string) string {
 	return builder.String()
 }
 
-func task20() {
+func Task20() {
 	fmt.Fprintln(os.Stdout, ReverseWords("snow главрыба dog sun"))
 	fmt.Fprintln(os.Stdout, ReverseWords2("snow главрыба dog sun"))
 }

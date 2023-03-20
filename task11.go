@@ -20,7 +20,7 @@ func intersection[T comparable](setA []T, setB []T) []T {
 	return set
 }
 
-func task11() {
+func Task11() {
 	setA := []int{34, 42, 54, 6, 7}
 	setB := []int{8, 5, 4, 6, 23, 42, 54}
 	setC := []string{"abs", "add", "mul", "div", "sub", "mod"}

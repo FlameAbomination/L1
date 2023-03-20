@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-func task3() {
+func Task3() {
 	var wg sync.WaitGroup
 
 	// Отсутствие Mutex может не оказать влияния на конечный результат,

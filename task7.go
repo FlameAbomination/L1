@@ -6,12 +6,15 @@ import (
 	"sync"
 )
 
+// Есть два способа обеспечения параллельной записи в map
+// самостоятельное задание mutex для map или использование
+// sync.Map
 type Database struct {
 	lock sync.Mutex
 	data map[int]int
 }
 
-func task7() {
+func Task7() {
 	var wg sync.WaitGroup
 	var databaseSync sync.Map
 	database := Database{

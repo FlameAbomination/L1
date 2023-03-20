@@ -7,9 +7,15 @@ import (
 	"time"
 )
 
-func task5() {
+func Task5() {
 	var wg sync.WaitGroup
-	n := 5
+	fmt.Fprintln(os.Stdout, "Введите время работы программы воркеров:")
+	var n int
+	_, err := fmt.Scanf("%d", &n)
+	if err != nil {
+		n = 5
+		fmt.Fprintln(os.Stdout, "Неверный формат ввода, будет использовано стандартное значение")
+	}
 	channel := make(chan int)
 	done := make(chan bool)
 	wg.Add(1)

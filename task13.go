@@ -23,7 +23,7 @@ func swap2() {
 	fmt.Fprintln(os.Stdout, a, b)
 }
 
-func task13() {
+func Task13() {
 	swap()
 	swap2()
 }

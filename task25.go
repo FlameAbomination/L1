@@ -20,7 +20,7 @@ func sleep2(seconds time.Duration) {
 	}
 }
 
-func task25() {
+func Task25() {
 	fmt.Fprintln(os.Stdout, time.Now())
 	sleep(time.Duration(1) * time.Second)
 	fmt.Fprintln(os.Stdout, time.Now())

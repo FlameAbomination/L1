@@ -36,7 +36,7 @@ func (c *Client) ConnectMidi(device Device) {
 	device.ConnectMidi()
 }
 
-func task21() {
+func Task21() {
 	client := &Client{}
 	midiDevice := &MidiPort{}
 

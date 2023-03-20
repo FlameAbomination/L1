@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func task6() {
+func Task6() {
 	var wg sync.WaitGroup
 
 	quit := make(chan bool)

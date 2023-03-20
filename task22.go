@@ -30,7 +30,7 @@ func BigIntMul(a *big.Int, b *big.Int) *big.Int {
 	return result
 }
 
-func task22() {
+func Task22() {
 	a := new(big.Int)
 	b := new(big.Int)
 	a.SetInt64(2 << 21)

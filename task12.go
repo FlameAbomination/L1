@@ -18,7 +18,7 @@ func properSubset[T comparable](setA []T) []T {
 	return set
 }
 
-func task12() {
+func Task12() {
 	setA := []string{"cat", "cat", "dog", "cat", "tree"}
 	fmt.Fprintln(os.Stdout, properSubset(setA))
 }

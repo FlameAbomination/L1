@@ -35,7 +35,7 @@ func QuickSort(arr []int) {
 	}
 }
 
-func task16() {
+func Task16() {
 	arr := []int{10, 8, 4, 2, 6}
 	QuickSort(arr)
 	fmt.Fprintln(os.Stdout, arr)

@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func task9() {
+func Task9() {
 	values := make(chan int)
 	squares := make(chan int)
 

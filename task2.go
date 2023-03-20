@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-func task2() {
+func Task2() {
 	var wg sync.WaitGroup
 	arr := [5]int{2, 4, 6, 8, 10}
 	for _, val := range arr {

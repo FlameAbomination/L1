@@ -20,7 +20,7 @@ func checkString(source string) bool {
 	return true
 }
 
-func task26() {
+func Task26() {
 	fmt.Fprintln(os.Stdout, checkString("abcd"))
 	fmt.Fprintln(os.Stdout, checkString("abCdefAaf"))
 	fmt.Fprintln(os.Stdout, checkString("aabcd"))

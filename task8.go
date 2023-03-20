@@ -24,7 +24,7 @@ func SetBit(value int64, bit int8, state uint) (int64, error) {
 	return value, nil
 }
 
-func task8() {
+func Task8() {
 	var value int64
 	value = 42
 	fmt.Fprintln(os.Stdout, strconv.FormatInt(value, 2))

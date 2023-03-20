@@ -37,7 +37,7 @@ func ReverseString3(source string) string {
 	}
 	return builder.String()
 }
-func task19() {
+func Task19() {
 	fmt.Fprintln(os.Stdout, ReverseString("главрыба"))
 	fmt.Fprintln(os.Stdout, ReverseString2("главрыба"))
 	fmt.Fprintln(os.Stdout, ReverseString3("главрыба"))

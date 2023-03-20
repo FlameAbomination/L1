@@ -21,7 +21,7 @@ func BinarySearch(haystack []int, x int) int {
 	return -1
 }
 
-func task17() {
+func Task17() {
 	arr := []int{2, 4, 6, 8, 10}
 	fmt.Fprintln(os.Stdout, BinarySearch(arr, 8))
 }

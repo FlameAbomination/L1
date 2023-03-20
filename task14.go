@@ -30,7 +30,7 @@ func PrintType3(value interface{}) {
 	}
 }
 
-func task14() {
+func Task14() {
 	values := make(chan int)
 	values2 := make(chan bool)
 	PrintType(42)
