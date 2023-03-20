@@ -9,7 +9,7 @@ import (
 
 func Task5() {
 	var wg sync.WaitGroup
-	fmt.Fprintln(os.Stdout, "Введите время работы программы воркеров:")
+	fmt.Fprintln(os.Stdout, "Введите время работы программы:")
 	var n int
 	_, err := fmt.Scanf("%d", &n)
 	if err != nil {
