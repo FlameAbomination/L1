@@ -7,11 +7,11 @@ import (
 
 func properSubset[T comparable](setA []T) []T {
 	var set []T
-	values := make(map[T]bool)
+	values := make(map[T]struct{})
 	for _, val := range setA {
 		_, ok := values[val]
 		if !ok {
-			values[val] = true
+			values[val] = struct{}{}
 			set = append(set, val)
 		}
 	}
