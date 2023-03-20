@@ -7,9 +7,9 @@ import (
 
 func intersection[T comparable](setA []T, setB []T) []T {
 	var set []T
-	values := make(map[T]bool)
+	values := make(map[T]struct{})
 	for _, val := range setA {
-		values[val] = true
+		values[val] = struct{}{}
 	}
 	for _, val := range setB {
 		_, ok := values[val]
